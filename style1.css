@@ -23,12 +23,14 @@ h1{
     font-size: 2.3rem;
     margin-left: 2rem;
     width: 80%;
-    text-align: left;
+    text-align: center;
     z-index: 3;
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background-color: transparent;
+    background-color: yellow;
+    border-radius: 2.3rem;
+    color: black;
 }
 .logo{
     width:200px;
@@ -83,6 +85,7 @@ main div>h3{
 }
 nav{
     display: block;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 nav a{
     position: relative;
@@ -93,11 +96,20 @@ nav a{
     text-align: center;
     padding: 0.6rem;
     font-weight: bolder;
-    color: blue;
+    color: white;
+    background-color: yellow;
+    border-radius: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+
 }
 a[href="#"]{
     color: black;
     text-decoration: none;
+    background-color: blue;
+}
+a:hover{
+    color: white;
+    background-color: black;
 }
 .subtitulo{
     display: inline-block
