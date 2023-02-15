@@ -54,39 +54,14 @@ section{
     width: 100vw;
     display: inline-block;
 }
-section nav{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-    border-radius: 1rem 0 0 1rem;
-    display: inline-block;
-    position: absolute;
-    left: 50px;
-}
-main div{
-    display: flex;
-    position: relative;
-    top: -120px;
-    width: 60%;
-    height: 90%;
-    padding: 1rem;
-    padding: 1rem;
-    vertical-align:top;
-}
+
 main{
-    display: inline-block;
-    text-align: center;
-    width: 100vw;
-}
-main div>h3{
-    text-align: left;
-}
-nav{
     display: flex;
+    text-align: left;
+    height: 100vh;
 }
-nav a{
-    position: relative;
-    left: 50px;
+
+main div> a{
     display: flex;
     width: 8rem;
     height: 2.5rem;
@@ -94,11 +69,19 @@ nav a{
     padding: 0.6rem;
     font-weight: bolder;
     color: blue;
+    flex-direction: row;
 }
 a[href="#"]{
     color: black;
     text-decoration: none;
 }
-.subtitulo{
-    display: inline-block
+.sublist{
+    list-style-type:lower-latin;
+}
+.list{
+    list-style-type: circle;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
 }
