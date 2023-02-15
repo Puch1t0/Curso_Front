@@ -64,7 +64,7 @@ section nav{
     left: 50px;
 }
 main div{
-    display: inline-block;
+    display: flex;
     position: relative;
     top: -120px;
     width: 60%;
@@ -82,15 +82,15 @@ main div>h3{
     text-align: left;
 }
 nav{
-    display: block;
+    display: flex;
 }
 nav a{
     position: relative;
     left: 50px;
-    display: block;
+    display: flex;
     width: 8rem;
     height: 2.5rem;
-    text-align: center;
+    text-align: left;
     padding: 0.6rem;
     font-weight: bolder;
     color: blue;
