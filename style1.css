@@ -93,3 +93,7 @@ a:hover{
     color: white;
     background-color: black;
 }
+.form div>nav{
+    padding: 1rem;
+    margin: 1rem;
+}

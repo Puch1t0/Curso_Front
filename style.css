@@ -85,6 +85,7 @@ a[href="#"]{
     display: flex;
     flex-direction: row;
 }
-form{
-    display: flex;
+.form div>nav{
+    padding: 1rem;
+    margin: 1rem;
 }

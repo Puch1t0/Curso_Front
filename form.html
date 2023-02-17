@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>introduccion a html</title>
-    <link rel="stylesheet" href="style.css">
-    <!--<link rel="stylesheet" href="style1.css">-->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <main>
+    <header>
+        <section>
+            <figure>
+                <img src="../MDHL_MARTIN_PUCCIO_2/design1_image1.jpg"
+                alt="jugador de jockey"width="100">
+            </figure>
+        <h1> Mighty Ducks Hockey League</h1>
+        </section>
+        <section class="subtitulo">
+            <figure class="logo">
+                <img src="./assets/img/Logo Mighty ducks-01.png"
+                alt="logo Mighty ducks"width="100">
+            </figure>
+        <h2>Form</h2>
+        </section> 
+    </header> 
+    <main class="form">
         <div>
             <a href="./index.html">Home</a>
             <a href="./about.html">About MDHL</a>
@@ -18,18 +34,24 @@
             <a href="#">Form</a>
             <a href="./contact.html">Contact</a>
             </div>
-
+        </div>
+    <div>
+    <nav>
     <form>
         <label for="fname">Player's First Name:</label>
         <input type="text" name="fname" id="fname"/>
         <label for="lname">Last Name:</label>
         <input type="text" name="lname" id="lname"/>
+    </form>
+    <form>
         <label for="saddress">Street Address:</label>
         <input type="text" name="saddress" id="saddress"/>
         <label for="city">City:</label>
         <input type="text" name="city" id="city"/>
         <label for="zcode">Zip Code:</label>
         <input type="text" name="zcode" id="zcode"/>
+    </form>
+    <form>
         <label for="bdate">Birth Date(mm/dd/yyyy):</label>
         <input type="text" name="fname" id="fname"/>
         <label for="gender">Gender:</label>
@@ -40,6 +62,8 @@
         <input type="radio" name="gender" id="other" value="other" checked/>
         <label for="other">Other</label>
     </form>
+</nav>
+<nav>
     <form>
         <label for="grade">Grade:</label>
         <input type="radio" name="grade" id="pre-school" value="pre-school" checked/>
@@ -55,6 +79,8 @@
         <input type="radio" name="grade" id="fifth" value="fifth" checked/>
         <label for="fifth">5°</label>
     </form>
+</nav>
+<nav>
     <form>
         <label for="">Which elementary school do you live near?</label>
         <label for="cschool">Closest School:</label>
@@ -68,6 +94,8 @@
             <option value="se">South Elementary<S/option>
         </select>
     </form>
+</nav>
+<nav>
     <form>
         <label for="position">What position(s) do you normally play?(check all that apply)</label>
         <input type="checkbox" id="f" name="foward" value="Foward">
@@ -79,6 +107,8 @@
         <input type="checkbox" id="gk" name="goalkeeper" value="Goalkeeper">
         <label for="gk">Goalkeeper</label>
     </form>
+</nav>
+<nav>
     <form>
         <label for="us">Uniform Size:</label>
         <select name="unifs" id="us">
@@ -92,7 +122,9 @@
             <option value="xl">Extra-Large</option>
         </select>
     </form>
-    <h1>Permission to Play</h1>
+</nav>
+<nav>
+    <h3>Permission to Play</h3>
     <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide
     by all the rules of the Mighty Ducks Hockey League (MDHL). In
     recongnizing the possibility of physical injury associated with hockey and in 
@@ -104,12 +136,16 @@
     activities, which transportation</p>
     <p> By typing my name, herebyagree and authorize the above. In addition, by typing my name below, I alos 
     acknowledge that I have read the cancellation policy and agree to its terms.</p>
-    <form>
+</nav>
+<nav>   
+<form>
         <label for="pname">Parent/Guardian Colmplete Name:</label>
         <input type="text" name="pname" id="pname"/>
         <label for="date">Date(mm/dd/yyyy):</label>
         <input type="text" name="date" id="date"/>
     </form>
+</nav>
+</div>
 </main>
 </body>
 </html>
