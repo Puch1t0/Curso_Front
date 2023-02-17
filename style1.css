@@ -97,3 +97,10 @@ a:hover{
     padding: 1rem;
     margin: 1rem;
 }
+.map{
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
