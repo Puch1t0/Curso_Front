@@ -85,3 +85,6 @@ a[href="#"]{
     display: flex;
     flex-direction: row;
 }
+form{
+    display: flex;
+}
