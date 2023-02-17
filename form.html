@@ -37,6 +37,7 @@
         </div>
     <div>
     <nav>
+    <form action="./show_data.html" method="get">
     <form>
         <label for="fname">Player's First Name:</label>
         <input type="text" name="fname" id="fname"/>
@@ -51,7 +52,7 @@
         <label for="zcode">Zip Code:</label>
         <input type="text" name="zcode" id="zcode"/>
     </form>
-    <form>
+    <form action="./data.txt" method="get">
         <label for="bdate">Birth Date(mm/dd/yyyy):</label>
         <input type="text" name="fname" id="fname"/>
         <label for="gender">Gender:</label>
@@ -64,7 +65,7 @@
     </form>
 </nav>
 <nav>
-    <form>
+    <form action="./data.txt" method="get">
         <label for="grade">Grade:</label>
         <input type="radio" name="grade" id="pre-school" value="pre-school" checked/>
         <label for="pre-school">Pre-School</label>
@@ -81,7 +82,7 @@
     </form>
 </nav>
 <nav>
-    <form>
+    <form action="./data.txt" method="get">
         <label for="">Which elementary school do you live near?</label>
         <label for="cschool">Closest School:</label>
         <select name="closeschool" id="cschool">
@@ -96,7 +97,7 @@
     </form>
 </nav>
 <nav>
-    <form>
+    <form action="./data.txt" method="get">
         <label for="position">What position(s) do you normally play?(check all that apply)</label>
         <input type="checkbox" id="f" name="foward" value="Foward">
         <label for="f">Foward</label>
@@ -109,7 +110,7 @@
     </form>
 </nav>
 <nav>
-    <form>
+    <form action="./data.txt" method="get">
         <label for="us">Uniform Size:</label>
         <select name="unifs" id="us">
             <option value="">--Please choose an option</option>
@@ -138,12 +139,14 @@
     acknowledge that I have read the cancellation policy and agree to its terms.</p>
 </nav>
 <nav>   
-<form>
+<form action="./data.txt" method="get">
         <label for="pname">Parent/Guardian Colmplete Name:</label>
         <input type="text" name="pname" id="pname"/>
         <label for="date">Date(mm/dd/yyyy):</label>
         <input type="text" name="date" id="date"/>
-    </form>
+</form>
+<input type="submit" value="Submit"/>
+</form>
 </nav>
 </div>
 </main>
