@@ -37,22 +37,20 @@
         </div>
     <div>
     <nav>
-    <form action="./show_data.html" method="get">
-    <form>
+    <form action="./show_data.html">
+    <fieldset>
         <label for="fname">Player's First Name:</label>
         <input type="text" name="fname" id="fname"/>
         <label for="lname">Last Name:</label>
         <input type="text" name="lname" id="lname"/>
-    </form>
-    <form>
+
         <label for="saddress">Street Address:</label>
         <input type="text" name="saddress" id="saddress"/>
         <label for="city">City:</label>
         <input type="text" name="city" id="city"/>
         <label for="zcode">Zip Code:</label>
         <input type="text" name="zcode" id="zcode"/>
-    </form>
-    <form action="./data.txt" method="get">
+
         <label for="bdate">Birth Date(mm/dd/yyyy):</label>
         <input type="text" name="fname" id="fname"/>
         <label for="gender">Gender:</label>
@@ -62,10 +60,9 @@
         <label for="male">Male</label>
         <input type="radio" name="gender" id="other" value="other" checked/>
         <label for="other">Other</label>
-    </form>
 </nav>
 <nav>
-    <form action="./data.txt" method="get">
+    <fieldset>
         <label for="grade">Grade:</label>
         <input type="radio" name="grade" id="pre-school" value="pre-school" checked/>
         <label for="pre-school">Pre-School</label>
@@ -79,10 +76,10 @@
         <label for="fourth">4°</label>
         <input type="radio" name="grade" id="fifth" value="fifth" checked/>
         <label for="fifth">5°</label>
-    </form>
+    </fieldset>
 </nav>
 <nav>
-    <form action="./show_data.html" method="get">
+    <fieldset>
         <label for="">Which elementary school do you live near?</label>
         <label for="cschool">Closest School:</label>
         <select name="closeschool" id="cschool">
@@ -94,10 +91,10 @@
             <option value="ne">North Elementary</option>
             <option value="se">South Elementary<S/option>
         </select>
-    </form>
+    </fieldset>
 </nav>
 <nav>
-    <form action="./data.txt" method="get">
+    <fieldset>
         <label for="position">What position(s) do you normally play?(check all that apply)</label>
         <input type="checkbox" id="f" name="foward" value="Foward">
         <label for="f">Foward</label>
@@ -107,10 +104,10 @@
         <label for="m">Midfield</label>
         <input type="checkbox" id="gk" name="goalkeeper" value="Goalkeeper">
         <label for="gk">Goalkeeper</label>
-    </form>
+    </fieldset>
 </nav>
 <nav>
-    <form action="./data.txt" method="get">
+    <fieldset>
         <label for="us">Uniform Size:</label>
         <select name="unifs" id="us">
             <option value="">--Please choose an option</option>
@@ -122,7 +119,7 @@
             <option value="l">Large</option>
             <option value="xl">Extra-Large</option>
         </select>
-    </form>
+    </fieldset>
 </nav>
 <nav>
     <h3>Permission to Play</h3>
@@ -139,12 +136,12 @@
     acknowledge that I have read the cancellation policy and agree to its terms.</p>
 </nav>
 <nav>   
-<form action="./data.txt" method="get">
+<fieldset>
         <label for="pname">Parent/Guardian Colmplete Name:</label>
         <input type="text" name="pname" id="pname"/>
         <label for="date">Date(mm/dd/yyyy):</label>
         <input type="text" name="date" id="date"/>
-</form>
+</fieldset>
 <input type="submit" value="Submit"/>
 </form>
 </nav>
